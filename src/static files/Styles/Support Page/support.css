@@ -1,0 +1,444 @@
+.hero-support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    background-color: #2EC1AC;
+  }
+  
+  .hero-support h1 {
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 3.5vw;
+  }
+  
+  .hero-support .searchDiv {
+    margin-left: 6vw;
+  }
+  
+  .hero-support input {
+    margin-top: 3vw;
+    border: 1.5px solid #f1f1f1;
+    font-size: 1.4vw;
+    outline: none;
+    width: 60vw;
+    background-color: transparent;
+    color: #f1f1f1;
+    padding: 0.7vw;
+    border-radius: 15px;
+    transition: border-color 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .hero-support input::placeholder {
+    color: #f1f1f1;
+  }
+  
+  .hero-support #sendBtn {
+    border-radius: 15px;
+    padding: 0.7vw;
+    background-color: #f1f1f1;
+    transition-duration: 0.2s;
+    outline: none;
+    border: 1.5px solid #f1f1f1;
+    color: #2EC1AC;
+    font-size: 1.4vw;
+    margin-left: 0.8vw;
+  }
+  
+  .hero-support #sendBtn:hover {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  
+  .hero-support .downloadButton {
+    border: 1.5px solid #2EC1AC;
+    border-radius: 15px;
+    background-color: #2EC1AC;
+    color: #f1f1f1;
+    padding: 0.7vw;
+    font-size: 1.4vw;
+    font-weight: 300;
+    padding-inline: 1vw;
+    position: relative;
+    right: 540;
+    top: 150;
+  }
+  
+  .driver-or-customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5vw;
+    width: 100%;
+  }
+  
+  .driver-or-customer .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }
+  
+  .driver-or-customer .cards .card {
+    height: 14vw;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    border: 1.5px solid #2EC1AC;
+    transition-duration: 0.2s;
+  }
+  
+  .driver-or-customer .cards .card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: #2EC1AC;
+    color: #f1f1f1;
+    transition-duration: 0.2s;
+  }
+  
+  .driver-or-customer .cards .card h1 {
+    color: #2EC1AC;
+    font-weight: 400;
+    font-size: 2vw;
+  }
+  
+  .driver-or-customer .cards .card:hover h1 {
+    color: #f1f1ff;
+  }
+  
+  .DriversSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+    background-color: transparent;
+    height: 50vw;
+    justify-content: center;
+    width: 98%;
+    margin-inline: auto;
+    border-radius: 15px;
+  }
+  
+  .DriversSection img {
+    margin-top: 5rem;
+    width: 35vw;
+    height: 38vw;
+    object-fit: cover;
+    margin-left: 6rem;
+    border-radius: 25px;
+  }
+  
+  .DriversSection .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    margin-left: 2rem;
+  }
+  
+  .DriversSection .texts h1 {
+    margin-top: 3rem;
+    font-size: 2vw;
+    color: #2EC1AC;
+  }
+  
+  .DriversSection .texts p {
+    color: #333;
+    font-size: 1.1vw;
+    width: 30vw;
+    line-height: 1.7vw;
+    margin-top: 1.2rem;
+  }
+  
+  .DriversSection .texts a {
+    border-radius: 25px;
+    font-size: 1.3vw;
+    padding: 0.6rem;
+    color: #f1f1f1;
+    background-color: #2EC1AC;
+    border: 1px solid #2EC1AC;
+    transition-duration: 0.2s;
+    width: 35%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .DriversSection .texts a:hover {
+    opacity: 0.9;
+    transition-duration: 0.2s;
+  }
+  
+  .downloadAppSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    width: 98%;
+    padding-block: 9vw;
+    background-color: #2EC1AC;
+    margin-inline: auto;
+    border-radius: 15px;
+    margin-top: 6vw;
+  }
+  
+  .downloadAppSection div {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    color: #f1f1f1;
+    width: 40vw;
+  }
+  
+  .downloadAppSection div img {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 0.7vw;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .downloadAppSection div img:hover {
+    opacity: 0.7;
+  }
+  
+  .downloadAppSection img {
+    width: 25vw;
+  }
+  
+  .ContactSection {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    margin-top: 5vw;
+  }
+  
+  .ContactSection h1 {
+    margin-top: 3rem;
+    color: #343131;
+    font-size: 2.2rem;
+    margin-left: 5rem;
+    margin-inline: auto;
+  }
+  
+  .ContactSection form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 5rem;
+  }
+  
+  .ContactSection form .emailTextbox input {
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    width: 100%;
+    background-color: transparent;
+    color: #343131;
+    font-size: 1rem;
+  }
+  
+  .ContactSection form .emailTextbox {
+    padding-left: 0.3rem;
+    border: 1px solid #343131;
+    border-radius: 25px;
+  }
+  .ContactSection form .phoneNumberTextbox input {
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    width: 100%;
+    background-color: transparent;
+    color: #343131;
+    font-size: 1rem;
+  }
+  
+  .ContactSection form .phoneNumberTextbox {
+    border: 1px solid #343131;
+    padding-left: 0.3rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+  }
+  
+  .ContactSection form .messageTextbox textarea {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+    background-color: transparent;
+    color: #343131;
+    font-size: 1rem;
+    overflow-y: auto;
+    height: 20vh;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  .ContactSection form .messageTextbox {
+    border: 1px solid #343131;
+    border-radius: 25px;
+    margin-top: 1rem;
+    height: 20vh;
+    overflow: hidden;
+  }
+  
+  .ContactSection form .submitButton {
+    border: 1px solid #2ec1ac;
+    border-radius: 25px;
+    background-color: #2ec1ac;
+    color: #f1f1f1;
+    width: 40%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    margin-inline: auto;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+  
+  .ContactSection form .submitButton:hover {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .hero {
+      height: 50vw;
+    }
+    .hero h1{
+      margin-top: 10vw;
+    }
+  
+    .downloadAppSection{
+      margin-top: 20vw;
+    }
+  
+    .downloadAppSection img {
+      width: 40vw;
+    }
+  
+    .downloadAppSection div img{
+      width: 30vw;
+      border-radius: 10px;
+    }
+  
+    .downloadAppSection div h1{
+      font-size: 3vw;
+    }
+  
+    .ContactSection form .submitButton {
+      border: 1px solid #2ec1ac;
+      border-radius: 25px;
+      background-color: #2ec1ac;
+      color: #f1f1f1;
+      width: 70%;
+      padding: 0.6rem;
+      font-size: 1rem;
+      margin-inline: auto;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      transition-duration: 0.2s;
+    }
+  
+    .ContactSection form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin-inline: auto;
+      margin-top: 5rem;
+    }
+  
+    .ContactSection h1 {
+      margin-top: 3rem;
+      color: #343131;
+      font-size: 4vw;
+      margin-left: 5rem;
+      margin-inline: auto;
+    }
+  
+    .ContactSection form .phoneNumberTextbox input {
+      border: none;
+      outline: none;
+      padding: 0.7rem;
+      width: 100%;
+      background-color: transparent;
+      color: #343131;
+      font-size: 2.5vw;
+    }
+    .ContactSection form .emailTextbox input {
+      border: none;
+      outline: none;
+      padding: 0.7rem;
+      width: 100%;
+      background-color: transparent;
+      color: #343131;
+      font-size: 2.5vw;
+    }
+  
+    .ContactSection form .messageTextbox textarea {
+      border: none;
+      outline: none;
+      padding: 1rem;
+      width: 100%;
+      background-color: transparent;
+      color: #343131;
+      font-size: 2.5vw;
+      overflow-y: auto;
+      box-sizing: border-box;
+      resize: none;
+    }
+  
+    .DriversSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10vw;
+      height: auto;
+      width: 98%;
+      margin-inline: auto;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+  
+    .DriversSection img {
+      width: 75vw;
+      height: 45vw;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-inline: auto;
+    }
+    
+    .DriversSection .texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-inline: auto;  
+    }
+  
+    .DriversSection .texts h1 {
+      font-size: 4vw;
+      color: #2EC1AC;
+    }
+    
+    .DriversSection .texts p {
+      color: #333;
+      font-size: 3vw;
+      width: 70vw;
+      line-height: 3.6vw;
+      text-align: center;
+      margin-top: 1.2rem;
+    }
+  
+    .DriversSection .texts a{
+      font-size: 3vw;
+    }
+  }
+  

@@ -1,0 +1,122 @@
+.hero-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/duufsftkm/image/upload/v1733480711/driverPage_zl2pnw.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hero-section .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    gap: 2rem;
+  }
+  
+  .text-content {
+    max-width: 45%;
+    margin-top: 8vw;
+    text-align: left;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .text-content .qr-code {
+    width: 12vw;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  .image-content {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-content .phone-image {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+    margin-top: 4vw;
+  }
+
+  
+  .map-container {
+    margin-top: 5rem;
+    margin-bottom: -8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-iframe {
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      gap: 1rem;
+    }
+  
+    .text-content {
+      max-width: 90%;
+      text-align: center; 
+      margin-top: 5vw;
+    }
+  
+    .text-content h1 {
+      font-size: 2rem;
+    }
+  
+    .text-content p {
+      font-size: 1rem;
+    }
+  
+    .text-content .qr-code {
+      width: 55vw;
+    }
+  
+    .image-content {
+        display: none;
+    }
+
+    .map-container {
+      margin: 0 auto;
+    }
+  }
+  

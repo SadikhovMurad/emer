@@ -1,0 +1,107 @@
+.ClassesSection {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+  }
+  
+  .ClassesSection .header {
+    color: #333;
+    font-size: 2.8vw;
+    font-weight: 600;
+    margin: 5rem auto;
+  }
+  
+  .ClassesSection .cards {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    margin-inline: auto;
+    overflow: hidden;
+    transition: all 1s ease;
+  }
+  
+  .ClassesSection .cards ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  .ClassesSection .cards ul li {
+    margin-block: 10px;
+  }
+  
+  .ClassesSection .cards .card {
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 17vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition-duration: 0.2s;
+  }
+  
+  .ClassesSection .cards .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+  }
+  
+  .ClassesSection .cards .card h1 {
+    font-size: 1.6vw;
+    color: #2ec1ac;
+  }
+  
+  .ClassesSection .cards .card p {
+    font-size: 1.2vw;
+    margin-top: 1rem;
+    color: #343131;
+  }
+  
+  @media (max-width: 768px) {
+    .ClassesSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ClassesSection .header {
+      font-size: 4vw;
+    }
+  
+    .ClassesSection .cards {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .ClassesSection .cards ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .ClassesSection .cards .card {
+      border-radius: 25px;
+      background-color: #f1f1f1;
+      width: 40vw;
+      height: 38vw;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .ClassesSection .cards .card:hover {
+      cursor: pointer;
+      transform: none;
+    }
+  
+    .ClassesSection .cards .card h1 {
+      font-size: 3vw;
+      color: #2ec1ac;
+    }
+  
+    .ClassesSection .cards .card p {
+      font-size: 2.4vw;
+      margin-top: 1rem;
+      color: #343131;
+    }
+  } 
+  

@@ -1,0 +1,219 @@
+.ServicesSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  .ServicesSection .header {
+    color: #333;  
+    font-size: 2.8vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+  
+  .ServicesSection .ServicesDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    width: 80%;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+  }
+  
+  .ServicesSection .ServicesDiv img {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.275);
+    transition: transform 0.3s ease;
+  }
+  
+  .ServicesSection .ServicesDiv .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40%;
+    text-align: center;
+  }
+  
+  .ServicesSection .ServicesDiv .texts h2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    color: #2EC1AC;
+  }
+  
+  .ServicesSection .ServicesDiv .texts p {
+    text-align: left;
+    color: #000000;
+    margin-top: 2vw;
+    width: 80%;
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+  
+  .ServicesSection .ServicesDiv .texts a {
+    margin-top: 1.5rem;
+    border-radius: 25px;
+    border: 2px solid #2EC1AC;
+    color: #f1f1f1;
+    background-color: #2EC1AC;
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    cursor: pointer;
+    max-width: 80%;
+    width: fit-content;
+    transition: all 0.4s ease;
+  }
+  
+  .ServicesSection .ServicesDiv .texts a:hover {
+    opacity: 0.7;
+  }
+  
+  .ServicesSection .ServicesDiv .texts a:active {
+    transform: scale(0.98);
+  }
+  
+  
+  .downloadAppSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    width: 98%;
+    padding-block: 9vw;
+    background-color: #2EC1AC;
+    margin-inline: auto;
+    border-radius: 15px;
+    margin-top: 6vw;
+  }
+  
+  .downloadAppSection div {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    color: #ffffff;
+    width: 40vw;
+  }
+  
+  .downloadAppSection div img {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 0.7vw;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  .downloadAppSection div img:hover {
+    opacity: 0.8;
+  }
+  
+  .downloadAppSection img {
+    width: 25vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ServicesSection{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .ServicesSection .header{
+      font-size: 4vw;
+    }
+  
+    .ServicesSection .ServicesDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-inline: auto;
+    }
+  
+    .ServicesSection .ServicesDiv img{
+      width: 70vw;
+    }
+  
+    .ServicesSection .ServicesDiv .texts{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-inline: auto;
+      width: 70vw;
+    }
+  
+  
+    .ServicesSection .ServicesDiv .texts h2{
+      font-size: 3.7vw;
+    }
+    .ServicesSection .ServicesDiv .texts p{
+      font-size: 3vw;
+      margin-top: 4vw;
+      width: 85%;
+      text-align: center;
+    }
+  
+    .ServicesSection .ServicesDiv .texts a{
+      font-size: 3rem;
+      width: 60%;
+    }
+  
+    .downloadAppSection{
+      margin-top: 20vw;
+    }
+  
+    .downloadAppSection img {
+      width: 40vw;
+    }
+  
+    .downloadAppSection div img{
+      width: 30vw;
+      border-radius: 10px;
+    }
+  
+    .downloadAppSection div h1{
+      font-size: 3vw;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .ServicesSection {
+      padding: 1rem 0;
+    }
+  
+    .ServicesSection .header {
+      font-size: 1.5rem;
+    }
+  
+    .ServicesSection .ServicesDiv img {
+      width: 70%;
+      height: auto;
+    }
+  
+    .ServicesSection .ServicesDiv .texts h2 {
+      font-size: 1.5rem;
+    }
+  
+    .ServicesSection .ServicesDiv .texts p {
+      font-size: 0.9rem;
+    }
+  
+    .ServicesSection .ServicesDiv .texts a {
+      font-size: 0.9rem;
+      padding: 0.7rem 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,83 @@
+.drivers{
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2EC1AC;
+    padding-block: 7vw;
+    width: 98%;
+    margin-inline: auto;
+    border-radius: 15px;
+}
+
+.drivers .header{
+    font-size: 3vw;
+    color: #f1f1f1;
+}
+
+.drivers .body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8vw;
+    margin-top: 3vw;
+}
+
+.drivers .body img{
+    width: 35vw;
+    height: 40vw;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.drivers .body .texts{
+    width: 40vw;
+}
+
+.drivers .body .texts h1{
+    font-size: 2vw;
+    color: #f1f1f1;
+}
+
+.drivers .body .texts ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.drivers .body .texts ul li h2{
+    font-size: 1.3vw;
+    margin-block: 1vw;
+    color: #E9EFEC;
+}
+.drivers .body .texts ul li p{
+    font-size: 1.1vw;
+    color: #E9EFEC;
+    margin-left: 1vw;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .drivers .body img{
+        width: 45vw;
+        height: 50vw;
+        object-fit: cover;
+        margin-top: 4vw;
+        border-radius: 25px;
+    }
+
+    .drivers .body .texts ul li h2{
+        font-size: 1.7vw;
+        margin-block: 1vw;
+        color: #E9EFEC;
+    }
+    .drivers .body .texts ul li p{
+        font-size: 1.5vw;
+        color: #E9EFEC;
+        margin-left: 1vw;
+        font-weight: 600;
+    }
+}

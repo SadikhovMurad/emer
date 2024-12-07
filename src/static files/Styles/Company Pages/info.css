@@ -1,0 +1,103 @@
+.infoEmer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+    height: 35vw;
+    margin-top: 8rem;
+}
+
+.infoEmer img {
+    width: 35vw;
+    height: 35vw;
+    object-fit: cover;
+    margin-left: 6vw;
+    border-radius: 20px;
+}
+
+.infoEmer .texts {
+    margin-top: 1.5vw;
+}
+
+.infoEmer .texts .header {
+    font-size: 1.5vw;
+    color: #333;
+    font-weight: bold;
+}
+
+.infoEmer .texts ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vw;
+    margin-top: 5vw;
+}
+
+.infoEmer .texts ul li h2 {
+    color: #2EC1AC;
+    font-size: 1.3vw;
+}
+
+.infoEmer .texts ul li p {
+    margin-block: 0.8vw;
+    font-size: 1.3vw;
+    color: #000000;
+}
+
+.infoEmer .texts ul .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 1.8vw;
+}
+
+.infoEmer .texts ul .buttons .button2 {
+    background-color: #2EC1AC;
+    border-radius: 20px;
+    border: 2px solid #2EC1AC;
+    font-size: 1.2vw;
+    padding: 0.8vw 1.8vw;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.infoEmer .texts ul .buttons .button2:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .infoEmer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 4vw;
+        height: auto;
+        margin-top: 15vw;
+    }
+
+    .infoEmer img {
+        width: 50vw;
+        height: 45vw;
+        margin-left: 0;
+    }
+
+    .infoEmer .texts .header {
+        font-size: 2.5vw;
+        text-align: left;
+    }
+
+    .infoEmer .texts ul {
+        gap: 2.5vw;
+        margin-top: 3vw;
+    }
+
+    .infoEmer .texts ul li h2,
+    .infoEmer .texts ul li p {
+        font-size: 1.5vw;
+    }
+
+    .infoEmer .texts ul .buttons .button2 {
+        font-size: 1.5vw;
+        padding: 1vw
+    }
+}
